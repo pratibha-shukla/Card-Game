@@ -1,2 +1,2 @@
-# Card-Game
-Simple Card Game using Java
+# Holiday-Card-Game
+Simple card game using React Js and BootStrap
