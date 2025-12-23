@@ -1,0 +1,19 @@
+footer {
+  background-color: rgb(193, 224, 247);
+  font-size: large;
+  text-align: center;
+  padding: 5px ;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  color: rgb(6, 48, 238);
+
+}
+.footerDiv {
+  margin-top: 4rem;
+}
+
+.logoimage {
+  width: 150px;
+}

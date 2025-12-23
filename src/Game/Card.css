@@ -1,0 +1,55 @@
+.deck-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.playing-card {
+  width: 120px;
+  height: 170px;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+  user-select: none;
+}
+
+.red { color: #d12d2d; }
+.black { color: #333; }
+
+.card-corner {
+  position: absolute;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.top-left { top: 0; left: 5px; }
+.bottom-right { 
+  bottom: 0; 
+  right: 5px; 
+  transform: rotate(180deg); 
+}
+
+.card-center {
+  font-size: 3rem;
+}
+
+.reshuffle-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
